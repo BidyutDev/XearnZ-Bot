@@ -1,5 +1,4 @@
 from discord.ext import commands
-from constants import TODO_FILE
 import os
 import asyncio
 from discord import Message

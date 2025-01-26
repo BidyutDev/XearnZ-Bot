@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /home/anirban/Desktop/python/bot/.venv
+set -gx VIRTUAL_ENV /home/anirban/Desktop/python/bot/XearnZ-Bot/.venv
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH
