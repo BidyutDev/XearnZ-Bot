@@ -16,7 +16,7 @@ async def db_connect():
     
 async def main():
     collection = await db_connect()
-    if collection:
+    if collection is not None:
         print("Successfully connected to the 'users' collection!")
     else:
         print("Failed to connect to the database.")

@@ -24,11 +24,12 @@ async def run_bot():
     async with bot:
         await load()
         await bot.start(TOKEN)
-    
+
 
 async def main():
     await run_bot()
-    await connect()
+    collection = await connect()
+    bot.db = collection
 
     
         
